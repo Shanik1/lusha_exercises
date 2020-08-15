@@ -1,0 +1,8 @@
+pytest
+pycountry
+pycountry_convert
+countryinfo
+spacy
+sklearn
+numpy
+pandas
