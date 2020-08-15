@@ -1,6 +1,6 @@
 # lusha_exercise
 
-####Description
+#Description
 Iterate the companies file and preform the following analysis:
 * Calculate the companies ranges. Saved under lusha_exercise\resources\companies_ranges.csv
 * Calculate for each country from Europe in the data set, the amount of total companies. Saved under lusha_exercise\resources\european_countries_companies.csv
@@ -8,5 +8,6 @@ Iterate the companies file and preform the following analysis:
 * Create a csv file, that holds the appearance percentage of the data points. Saved under lusha_exercise\resources\data_points.csv
 * Define the company's keywords, extracted from the company's description, using Tfidf model. 
   * Saved under lusha_exercise\resources\companies_keywords.csv
-####How to run
+
+#How to run
 python main.py {large_json_file_path}

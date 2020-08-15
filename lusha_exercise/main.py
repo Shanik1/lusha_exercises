@@ -40,6 +40,8 @@ def main():
     records = iterate_records(resource_json_file_path)
     for record in records:
         update_company_manager_with_record(company_manager, record)
+        if company_manager.companies_count > 10000:
+            break
     company_manager.update_field_names_counter_to_store_percent()
     write_results(company_manager, resource_folder)
 
